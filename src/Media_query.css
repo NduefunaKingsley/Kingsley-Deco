@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+   .grid-container {
+    display: table-cell;
+    row-gap: 50px;
+   }
+   .head {
+    width: 600px;
+   }
+   .title {
+    width: 400px;
+    margin-left: 0;
+    margin-bottom: -100px;
+   }
+   .contain-nav {
+    width: 600px;
+   }
+}

@@ -1,0 +1,46 @@
+.main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    align-content: center;
+    row-gap: 50px;
+}
+
+.card-img {
+    cursor: pointer;
+}
+.footer{
+    margin-top: 30px;
+    height: 5rem;
+}
+.card1 {
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+    background: rgb(180, 174, 174);
+    border-radius: 15px;
+}
+.image {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.head {
+    width: 40%;
+    height: 500px;
+}
+.title {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+h1 {
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

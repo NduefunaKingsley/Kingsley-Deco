@@ -1,0 +1,20 @@
+import './App.css'
+import AppRouter from './Router/AppRouter'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Media_query.css';
+
+
+
+
+
+function App() {
+  
+
+  return (
+    <>
+    <AppRouter />
+    </>
+  )
+}
+
+export default App
